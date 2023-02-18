@@ -1,0 +1,754 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE metadata PUBLIC "" "csdgm2.dtd">
+<?xml-stylesheet href="FGDC_V2.xsl" type="text/xsl"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>U.S. Geological Survey</origin>
+        <pubdate>
+          <!--For data under the 133 UA project,  use the year that the data has been sent to EDC and NIMA.-->
+          2003
+        </pubdate>
+        <title>
+          <!--Enter the name by which the data file is known. Use the National Grid designation for the SW corner of image. USGS high-resolution orthoimage is the name of the dataset, while the USNG designation is the identity of a single file.
+
+Example: USGS High Resolution Orthoimage USNG 16TDM440425, Chicago IL-IN-->
+          USGS High Resolution Orthoimage USNG 17SPV870855, Raleigh-Durham, NC
+        </title>
+        <geoform>remote sensing image</geoform>
+        <pubinfo>
+          <pubplace>Sioux Falls, SD</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>An orthoimage is remotely sensed image data in which displacement of features in the image caused by terrain relief and sensor orientation have been mathematically removed. Orthoimagery combines the image characteristics of a photograph with the geometric qualities of a map. For this dataset, the natural color orthoimages were produced at 0.3-meter pixel resolution (approximately 1-foot). The design accuracy is estimated not to exceed 3-meter diagonal RMSE (2.12m RMSE in X or Y). Each orthoimage provides imagery for a 1500- by 1500-meter block on the ground. The projected coordinate system is UTM with a NAD83 datum. There is no image overlap between adjacent files. The naming convention is based on the U.S. National Grid (USNG), taking the coordinates of the SW corner of the orthoimage.</abstract>
+      <purpose>This data has been created as a result of the need for having geospatial data immediately available and easily accessible in order to enhance the capability of Federal, State, and local emergency responders, as well as plan for homeland security efforts.</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>
+            <!--Enter the year, month, and day (if known) in the format YYYYMMDD.-->
+            20020328
+          </caldate>
+        </sngdate>
+      </timeinfo>
+      <current>
+        <!--The basis on which the time period of content information is determined. 
+Domain: "ground condition" publicaton date" free text-->
+        ground condition
+      </current>
+    </timeperd>
+    <status>
+      <progress>
+        <!--The state of the data set. 
+Domain: "Complete" "In work" "Planned"-->
+        complete
+      </progress>
+      <update>irregular</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-78.92540833</westbc>
+        <eastbc>-78.90842222</eastbc>
+        <northbc>36.00955833</northbc>
+        <southbc>35.99575556</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>none</themekt>
+        <themekey>0.3 meter orthoimage</themekey>
+        <themekey>rectified photograph</themekey>
+        <themekey>rectified image</themekey>
+        <themekey>orthophoto</themekey>
+        <themekey>natural color orthophoto</themekey>
+        <themekey>orthoimage</themekey>
+        <themekey>image map</themekey>
+      </theme>
+      <place>
+        <placekt>U.S. Department of Commerce, 1995, Countries, Dependencies, Areas of Special Sovereignty, and Their Principal Administrative Divisions (Federal Information Processing Standard (FIPS) 10-4): Washington, D.C., National Institute of Standards and Technology.</placekt>
+        <placekey>
+          <!--Enter the two-letter country code.-->
+          US
+        </placekey>
+      </place>
+      <place>
+        <placekt>U.S. Department of Commerce, 1987, Codes for the Identification of the States, the District of Columbia and the outlying areas of the United States, and associated areas (Federal Information Processing Standard (FIPS) 5-2): Washington, D.C., National Institute of Standards and Technology.</placekt>
+        <placekey>
+          <!--Enter the two-letter designation for the State.  Repeat this element for each state.-->
+          NC
+        </placekey>
+      </place>
+      <place>
+        <placekt>None</placekt>
+        <placekey>
+          <!--Enter the Urban Area name from the list provided.  
+
+Example: 'Chicago, IL-IN'-->
+          Raleigh-Durham, NC
+        </placekey>
+      </place>
+    </keywords>
+    <accconst>none</accconst>
+    <useconst>None.   However, users should be aware that temporal changes may have occurred since this data set was collected and that some parts of this data may no longer represent actual surface conditions.  Users should not use this data for critical applications without a full awareness of it's limitations.
+Acknowledgment of the U.S. Geological Survey would be appreciated for products derived from these data.</useconst>
+    <datacred>
+      <!--Give credit to all organizations that have contributed to the creation of this dataset.-->
+      The Lidar data used in the Orthorectification process for this imagery was developed for the Floodplain Mapping Program, North Carolina Division of Emergency Management and obtained in cooperation wtih the North Carolina Center for Geographic Information and Analysis.
+    </datacred>
+    <native>
+      <!--Enter a description of the data set in the producer's processing environment, including items such as the name of the hardware and the software (including version) and the computer operating system.
+
+Domain: free text-->
+      Z/I Imaging Orthopro 4.0, Windows 2000 SP2
+    </native>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>During photographic reproduction of the source photographs, limited analog dodging (radiometric editing) is performed to improve image quality. Analog dodging consists of holding back light from certain areas of the sensitized photographic material to avoid overexposure. The diapositive is inspected to ensure clarity and radiometric uniformity. Diapositive image brightness values are collected with a minimum of image quality manipulation. Image brightness values may deviate from the brightness values of the original images because of image value interpolation during the scanning and rectification processes. Radiometry is verified by visual inspection of the digital orthophoto with the original unrectified image to determine if the digital orthophoto has the same or better image quality as the original unrectified input image. Slight systematic radiometric differences can be detected between adjacent orthoimage files; these are due primarily to differences in source photograph capture dates and sun angles along flight lines when the aerial photographs were taken. These differences can be observed in an image's general lightness or darkness when it is compared to adjacent orthoimage file coverages. Tonal balancing may be performed over a group of images during the mosaicking process which may serve to lighten or darken adjacent images for better color tone matching.</attraccr>
+    </attracc>
+    <posacc>
+      <horizpa>
+        <horizpar>
+          <!--An explanation of the accuracy of the horizontal coordinate measurements and a description of the tests used. This must be entered by the contractor to reflect their methods. This is provided only as a sample of the type of information needed. "Tested" can only be used when data testing is performed against independent checkpoints from a source of higher accuracy.
+
+Domain: free text-->
+          The horizontal positional accuracy and the assurance of that accuracy depend, in part, on the accuracy of the data inputs to the rectification process.  The location of existing USGS photoidentifiable ground control and contractor aerotriangulation points were evaluated on the Geotiff image and compared with their ground values in order to determine an overall accuracy for each test block of orthoimages within the project.   After image coordinate measurement was completed for each block, an RMSE for the diagonal error was calculated for the orthoimages within the block.  This value is an estimate of the horizontal accuracy of the tile expressed in meters.
+        </horizpar>
+        <qhorizpa>
+          <horizpav>
+            <!--Enter an estimate of the accuracy of the horizontal coordinate measurements in the data set expressed in ground units (meters for this dataset).
+Domain: free real-->
+            0.90
+          </horizpav>
+          <horizpae>
+            <!--Enter the identification of the test that yielded the Horizontal Positional Accuracy Value. This dataset has no associated scale that would allow computation from National Map Accuracy Standard. Methods listed in the NSSDA are required.
+
+Domain: free text-->
+            Federal Geographic Data Committee, 1998, Geospatial Positioning Accuracy Standard, Part 3, National Standard for Spatial Data Accuracy, FGDC-STD-007.3-1998
+          </horizpae>
+        </qhorizpa>
+      </horizpa>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <!--Repeat this 'srcinfo' element to identify each Photo used to produce the data.-->
+        <srccite>
+          <citeinfo>
+            <origin>
+              <!--Enter the name of the organization that created the Photo.  
+
+Example: U.S. Geological Survey-->
+              Sanborn of Colorado, LLC
+            </origin>
+            <pubdate>
+              <!--Enter the date (YYYY) when the Photo was created or otherwise made available for release.  
+
+Example:  2001-->
+              2002
+            </pubdate>
+            <title>
+              <!--Enter the Photo ID. -->
+              RDU 3-64
+            </title>
+          </citeinfo>
+        </srccite>
+        <srcscale>
+          <!--Enter denominator of the photo scale here. For example, 2X flying height if the focal length of the camera is 6".-->
+          15000
+        </srcscale>
+        <typesrc>
+          <!--Enter the medium of the source dataset.
+
+Examples: paper, stable-base material, CD-ROM, disc, cartridge tape
+
+-->
+          disc
+        </typesrc>
+        <srctime>
+          <!--Use this section to identify the time period for which the source data set corresponds to the ground.-->
+          <timeinfo>
+            <!--Enter the time period for which the dataset corresponds to the ground. For DOQs,  use the 'begdate' and 'enddate' elements under 'rngdates'. For sources that correspond to a single date (e.g., ground control acquisition), use the 'caldate' element under 'sngdate'.-->
+            <sngdate>
+              <!--Use the 'caldate' element for time information that represents a single date.-->
+              <caldate>
+                <!--Enter the date (YYYYMMDD) for which the Photo corresponds to the ground.-->
+                20020328
+              </caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>
+            <!--The basis on which the source time period of content information of the source data set is determined. 
+Domain: "ground condition" publicaton date" free text-->
+            gound condition
+          </srccurr>
+        </srctime>
+        <srccitea>
+          <!--Enter the abbreviation used to identify Photo in the Process Description.-->
+          PHOTO
+        </srccitea>
+        <srccontr>
+          <!--Enter the purpose of this Photo in producing the dataset.  -->
+          True color stable-base aerial photography film flown at 7,500 feet above average ground elevation. Provides the imagery for the digital orthoimage.
+        </srccontr>
+      </srcinfo>
+      <srcinfo>
+        <!--Repeat this 'srcinfo' element to identify each Photo used to produce the data.-->
+        <srccite>
+          <citeinfo>
+            <origin>
+              <!--Enter the name of the organization that created the Photo.  
+
+Example: U.S. Geological Survey-->
+              Sanborn of Colorado, LLC
+            </origin>
+            <pubdate>
+              <!--Enter the date (YYYY) when the Photo was created or otherwise made available for release.  
+
+Example:  2001-->
+              2002
+            </pubdate>
+            <title>
+              <!--Enter the Photo ID. -->
+              RDU 3-63
+            </title>
+          </citeinfo>
+        </srccite>
+        <srcscale>
+          <!--Enter denominator of the photo scale here. For example, 2X flying height if the focal length of the camera is 6".-->
+          15000
+        </srcscale>
+        <typesrc>
+          <!--Enter the medium of the source dataset.
+
+Examples: paper, stable-base material, CD-ROM, disc, cartridge tape
+
+-->
+          disc
+        </typesrc>
+        <srctime>
+          <!--Use this section to identify the time period for which the source data set corresponds to the ground.-->
+          <timeinfo>
+            <!--Enter the time period for which the dataset corresponds to the ground. For DOQs,  use the 'begdate' and 'enddate' elements under 'rngdates'. For sources that correspond to a single date (e.g., ground control acquisition), use the 'caldate' element under 'sngdate'.-->
+            <sngdate>
+              <!--Use the 'caldate' element for time information that represents a single date.-->
+              <caldate>
+                <!--Enter the date (YYYYMMDD) for which the Photo corresponds to the ground.-->
+                20020328
+              </caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>
+            <!--The basis on which the source time period of content information of the source data set is determined. 
+Domain: "ground condition" publicaton date" free text-->
+            gound condition
+          </srccurr>
+        </srctime>
+        <srccitea>
+          <!--Enter the abbreviation used to identify Photo in the Process Description.-->
+          PHOTO
+        </srccitea>
+        <srccontr>
+          <!--Enter the purpose of this Photo in producing the dataset.  -->
+          True color stable-base aerial photography film flown at 7,500 feet above average ground elevation. Provides the imagery for the digital orthoimage.
+        </srccontr>
+      </srcinfo>
+      <srcinfo>
+        <!--Repeat this 'srcinfo' element to identify each Photo used to produce the data.-->
+        <srccite>
+          <citeinfo>
+            <origin>
+              <!--Enter the name of the organization that created the Photo.  
+
+Example: U.S. Geological Survey-->
+              Sanborn of Colorado, LLC
+            </origin>
+            <pubdate>
+              <!--Enter the date (YYYY) when the Photo was created or otherwise made available for release.  
+
+Example:  2001-->
+              2002
+            </pubdate>
+            <title>
+              <!--Enter the Photo ID. -->
+              RDU 2-265
+            </title>
+          </citeinfo>
+        </srccite>
+        <srcscale>
+          <!--Enter denominator of the photo scale here. For example, 2X flying height if the focal length of the camera is 6".-->
+          15000
+        </srcscale>
+        <typesrc>
+          <!--Enter the medium of the source dataset.
+
+Examples: paper, stable-base material, CD-ROM, disc, cartridge tape
+
+-->
+          disc
+        </typesrc>
+        <srctime>
+          <!--Use this section to identify the time period for which the source data set corresponds to the ground.-->
+          <timeinfo>
+            <!--Enter the time period for which the dataset corresponds to the ground. For DOQs,  use the 'begdate' and 'enddate' elements under 'rngdates'. For sources that correspond to a single date (e.g., ground control acquisition), use the 'caldate' element under 'sngdate'.-->
+            <sngdate>
+              <!--Use the 'caldate' element for time information that represents a single date.-->
+              <caldate>
+                <!--Enter the date (YYYYMMDD) for which the Photo corresponds to the ground.-->
+                20020328
+              </caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>
+            <!--The basis on which the source time period of content information of the source data set is determined. 
+Domain: "ground condition" publicaton date" free text-->
+            gound condition
+          </srccurr>
+        </srctime>
+        <srccitea>
+          <!--Enter the abbreviation used to identify Photo in the Process Description.-->
+          PHOTO
+        </srccitea>
+        <srccontr>
+          <!--Enter the purpose of this Photo in producing the dataset.  -->
+          True color stable-base aerial photography film flown at 7,500 feet above average ground elevation. Provides the imagery for the digital orthoimage.
+        </srccontr>
+      </srcinfo>
+      <srcinfo>
+        <!--Repeat this 'srcinfo' element to identify each Photo used to produce the data.-->
+        <srccite>
+          <citeinfo>
+            <origin>
+              <!--Enter the name of the organization that created the Photo.  
+
+Example: U.S. Geological Survey-->
+              Sanborn of Colorado, LLC
+            </origin>
+            <pubdate>
+              <!--Enter the date (YYYY) when the Photo was created or otherwise made available for release.  
+
+Example:  2001-->
+              2002
+            </pubdate>
+            <title>
+              <!--Enter the Photo ID. -->
+              RDU 2-264
+            </title>
+          </citeinfo>
+        </srccite>
+        <srcscale>
+          <!--Enter denominator of the photo scale here. For example, 2X flying height if the focal length of the camera is 6".-->
+          15000
+        </srcscale>
+        <typesrc>
+          <!--Enter the medium of the source dataset.
+
+Examples: paper, stable-base material, CD-ROM, disc, cartridge tape
+
+-->
+          disc
+        </typesrc>
+        <srctime>
+          <!--Use this section to identify the time period for which the source data set corresponds to the ground.-->
+          <timeinfo>
+            <!--Enter the time period for which the dataset corresponds to the ground. For DOQs,  use the 'begdate' and 'enddate' elements under 'rngdates'. For sources that correspond to a single date (e.g., ground control acquisition), use the 'caldate' element under 'sngdate'.-->
+            <sngdate>
+              <!--Use the 'caldate' element for time information that represents a single date.-->
+              <caldate>
+                <!--Enter the date (YYYYMMDD) for which the Photo corresponds to the ground.-->
+                20020328
+              </caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>
+            <!--The basis on which the source time period of content information of the source data set is determined. 
+Domain: "ground condition" publicaton date" free text-->
+            gound condition
+          </srccurr>
+        </srctime>
+        <srccitea>
+          <!--Enter the abbreviation used to identify Photo in the Process Description.-->
+          PHOTO
+        </srccitea>
+        <srccontr>
+          <!--Enter the purpose of this Photo in producing the dataset.  -->
+          True color stable-base aerial photography film flown at 7,500 feet above average ground elevation. Provides the imagery for the digital orthoimage.
+        </srccontr>
+      </srcinfo>
+      <srcinfo>
+        <!--Repeat this 'srcinfo' element to identify each Digital Elevation Model used to produce the data.-->
+        <srccite>
+          <citeinfo>
+            <origin>
+              <!--Enter the name of the organization that created the Elevation Model. 
+
+Example: U.S. Geological Survey-->
+              Floodplain Mapping Program, North Carolina Division of Emergency Management.
+            </origin>
+            <pubdate>
+              <!--Enter the date (YYYY) when the Elevation Model was created or otherwise made available for release.  For a USGS DEM, this is the date that the data was entered or last loaded into the data base.
+
+Example:  2001-->
+              20020531
+            </pubdate>
+            <title>
+              <!--Enter the name by which the Elevation Model is known. 
+-->
+              Northwest Durham, NC 10m LIDAR DEM
+            </title>
+          </citeinfo>
+        </srccite>
+        <typesrc>
+          <!--Enter the medium of the source dataset.
+
+Examples: paper, stable-base material, CD-ROM, disc, cartridge tape
+
+-->
+          disc
+        </typesrc>
+        <srctime>
+          <!--Use this section to identify the time period(s) for which the source data set corresponds to the ground.-->
+          <timeinfo>
+            <!--Enter the time period for which the dataset corresponds to the ground.  For sources that correspond to a single date (e.g., ground control acquisition), use the 'caldate' element under 'sngdate'.  For datasets acquired over a period of time,  use the 'begdate' and 'enddate' elements under 'rngdates'.-->
+            <rngdates>
+              <begdate>200101</begdate>
+              <enddate>200103</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>
+            <!--The basis on which the source time period of content information of the source data set is determined. 
+Domain: "ground condition" publicaton date" free text-->
+            ground condition
+          </srccurr>
+        </srctime>
+        <srccitea>
+          <!--Enter the abbreviation used to identify the Elevation Model in the Process Description.-->
+          DEM
+        </srccitea>
+        <srccontr>
+          <!--Enter the purpose of this Elevation Model in producing the dataset.  -->
+          USGS format elevation data with a 10m grid post interval and covering a 7.5- x 7.5-minute quadrangle in extent.  Derived from LIDAR measurements obtained in 2001.  Used to provide ground elevations for orthorectification process.
+        </srccontr>
+      </srcinfo>
+      <srcinfo>
+        <!--Repeat this 'srcinfo' element to identify each Digital Elevation Model used to produce the data.-->
+        <srccite>
+          <citeinfo>
+            <origin>
+              <!--Enter the name of the organization that created the Elevation Model. 
+
+Example: U.S. Geological Survey-->
+              Floodplain Mapping Program, North Carolina Division of Emergency Management.
+            </origin>
+            <pubdate>
+              <!--Enter the date (YYYY) when the Elevation Model was created or otherwise made available for release.  For a USGS DEM, this is the date that the data was entered or last loaded into the data base.
+
+Example:  2001-->
+              20020531
+            </pubdate>
+            <title>
+              <!--Enter the name by which the Elevation Model is known. 
+-->
+              Southwest Durham, NC 10m LIDAR DEM
+            </title>
+          </citeinfo>
+        </srccite>
+        <typesrc>
+          <!--Enter the medium of the source dataset.
+
+Examples: paper, stable-base material, CD-ROM, disc, cartridge tape
+
+-->
+          disc
+        </typesrc>
+        <srctime>
+          <!--Use this section to identify the time period(s) for which the source data set corresponds to the ground.-->
+          <timeinfo>
+            <!--Enter the time period for which the dataset corresponds to the ground.  For sources that correspond to a single date (e.g., ground control acquisition), use the 'caldate' element under 'sngdate'.  For datasets acquired over a period of time,  use the 'begdate' and 'enddate' elements under 'rngdates'.-->
+            <rngdates>
+              <begdate>200101</begdate>
+              <enddate>200103</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>
+            <!--The basis on which the source time period of content information of the source data set is determined. 
+Domain: "ground condition" publicaton date" free text-->
+            ground condition
+          </srccurr>
+        </srctime>
+        <srccitea>
+          <!--Enter the abbreviation used to identify the Elevation Model in the Process Description.-->
+          DEM
+        </srccitea>
+        <srccontr>
+          <!--Enter the purpose of this Elevation Model in producing the dataset.  -->
+          USGS format elevation data with a 10m grid post interval and covering a 7.5- x 7.5-minute quadrangle in extent.  Derived from LIDAR measurements obtained in 2001.  Used to provide ground elevations for orthorectification process.
+        </srccontr>
+      </srcinfo>
+      <srcinfo>
+        <!--Repeat this 'srcinfo' element to identify each Project Control used to produce the data.
+-->
+        <srccite>
+          <citeinfo>
+            <origin>
+              <!--Enter the name of the organization that created the Project Control. 
+
+Example: U.S. Geological Survey-->
+              Sanborn of Colorado, LLC
+            </origin>
+            <pubdate>
+              <!--Enter the date (YYYY) when the Project Control was created or otherwise made available for release.  
+
+Example:  2001-->
+              Unpublished material
+            </pubdate>
+            <title>
+              <!--Enter the name by which the Project Control is known. -->
+              Airborne GPS Control
+            </title>
+          </citeinfo>
+        </srccite>
+        <typesrc>
+          <!--Enter the medium of the source dataset.
+
+Examples: paper, stable-base material, CD-ROM, disc, cartridge tape
+
+-->
+          disc
+        </typesrc>
+        <srctime>
+          <!--Use this section to identify the time period(s) for which the source data set corresponds to the ground.-->
+          <timeinfo>
+            <!--Enter the time period for which the dataset corresponds to the ground. For DOQs,  use the 'begdate' and 'enddate' elements under 'rngdates'. For sources that correspond to a single date (e.g., ground control acquisition), use the 'caldate' element under 'sngdate'.-->
+            <sngdate>
+              <!--Use the 'caldate' element for time information that represents a single date. If the data spans more than one date, use the RANGE OF DATES element. DON'T USE BOTH.-->
+              <caldate>
+                <!--Enter the date (YYYYMMDD) for which the Project Control corresponds to the ground.
+
+NOTE: Use ONLY one - single date or range of dates.-->
+                20020328
+              </caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>
+            <!--The basis on which the source time period of content information of the source data set is determined. 
+Domain: "ground condition" publicaton date" free text-->
+            ground condition
+          </srccurr>
+        </srctime>
+        <srccitea>
+          <!--Enter the abbreviation used to identify the Project Control in the Process Description.-->
+          ABGPS
+        </srccitea>
+        <srccontr>
+          <!--Enter the purpose of this Project Control in producing the dataset.  -->
+          Horizontal and vertical control used to establish positions and elevations for reference and correlation purposes and as input to the aerotriangulation process.  Control consists of both Airborne GPS to provide camera station positions and photoidentifiable surveyed ground control for ground reference.
+        </srccontr>
+      </srcinfo>
+      <srcinfo>
+        <!--Repeat this 'srcinfo' element to identify each Project Control used to produce the data.
+-->
+        <srccite>
+          <citeinfo>
+            <origin>
+              <!--Enter the name of the organization that created the Project Control. 
+
+Example: U.S. Geological Survey-->
+              US Geological Survey
+            </origin>
+            <pubdate>
+              <!--Enter the date (YYYY) when the Project Control was created or otherwise made available for release.  
+
+Example:  2001-->
+              Unpublished material
+            </pubdate>
+            <title>
+              <!--Enter the name by which the Project Control is known. -->
+              Aero-triangulation Control
+            </title>
+          </citeinfo>
+        </srccite>
+        <typesrc>
+          <!--Enter the medium of the source dataset.
+
+Examples: paper, stable-base material, CD-ROM, disc, cartridge tape
+
+-->
+          disc
+        </typesrc>
+        <srctime>
+          <!--Use this section to identify the time period(s) for which the source data set corresponds to the ground.-->
+          <timeinfo>
+            <!--Enter the time period for which the dataset corresponds to the ground. For DOQs,  use the 'begdate' and 'enddate' elements under 'rngdates'. For sources that correspond to a single date (e.g., ground control acquisition), use the 'caldate' element under 'sngdate'.-->
+            <sngdate>
+              <!--Use the 'caldate' element for time information that represents a single date. If the data spans more than one date, use the RANGE OF DATES element. DON'T USE BOTH.-->
+              <caldate>
+                <!--Enter the date (YYYYMMDD) for which the Project Control corresponds to the ground.
+
+NOTE: Use ONLY one - single date or range of dates.-->
+                20020328
+              </caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>
+            <!--The basis on which the source time period of content information of the source data set is determined. 
+Domain: "ground condition" publicaton date" free text-->
+            ground condition
+          </srccurr>
+        </srctime>
+        <srccitea>
+          <!--Enter the abbreviation used to identify the Project Control in the Process Description.-->
+          AT_CONTROL
+        </srccitea>
+        <srccontr>
+          <!--Enter the purpose of this Project Control in producing the dataset.  -->
+          Horizontal and vertical check points and External Orientation Parameters.  Check points consist of photoidentiable horizontal ground control.  External Orientation Parameters derived through aero-triangulation are used as control input to the Orthorectification process.
+        </srccontr>
+      </srcinfo>
+      <procstep>
+        <!--May be repeated as required-->
+        <procdesc>
+          <!--Describe the process that was used to create the dataset. Be sure to include all of the sources that were used in the process (as documented above under source information. For proprietary processes, include general statements to explain how the dataset was created. Be sure to include a statement about how the control was used and what the original coordinate system for these orthos was, specifically if they were anything other than UTM. Any conversion processes, mosaicking, or resampling that took place should also be described briefly.-->
+          Each image was scanned from film-stable source at a resolution of 20 micrometers. Airborne GPS provided the camera station X, Y, and Z coordinates and was used to control a softcopy aerotriangulation block solution. Available USGS photoidentifiable ground control was used to test the results of the aerotriangulation adjustment. External orientation parameters derived from the aerotriangulation solution were used to provide the horizontal control for each photograph. Vertical control for the orthorectification process was obtained from both LIDAR and existing USGS Digitial Elevation Models (DEM). During the orthorectification process, elevation data were extracted and resampled to meet user-specified intervals and bounds.
+
+The orthorectified imagery is resampled to a 0.3 meter ground resolution with a ground extent of 1500- by 1500-meters. Each 1500- by 1500-meter orthoimage is generated from a mosaic created from multiple photographs. Tonal balancing is automatically performed over each work block of contiguous images during the mosaicking process. However, a single tonal balancing operation was not performed over the project area in its entirety. Orthorectification and mosaicking were performed using Z/I Imaging OrthoPro 4.00.00.05 running on Windows 2000 SP2. Resampling to 0.3 meter was done using cubic convolution. Individual orthoimages are bounded by UTM grid lines which are evenly divisible by 1500. Final output is as an uncompressed GeoTiff file.
+
+All orthoimages are individually inspected for content, misalignments along mosaic seamlines, and void areas. No digital image dodging or enhancement was performed. Source information was collected and verified manually during the production process.
+        </procdesc>
+        <procdate>
+          <!--Enter the date (YYYYMMDD) that the dataset is created.-->
+          20030715
+        </procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>
+              <!--Enter the identifier for the UTM zone.-->
+              17
+            </utmzone>
+            <transmer>
+              <sfctrmer>
+                <!--Enter a multiplier for reducing a distance obtained from a map by computation or scaling to the actual distance along the central meridian.
+-->
+                0.9996
+              </sfctrmer>
+              <longcm>
+                <!--Enter the line of longitude at the center of a map projection generally used as the basis for constructing the projection.
+Type: real
+Domain: -180.0 <= Longitude of Central Meridian < 180.0-->
+                -81.0000
+              </longcm>
+              <latprjo>
+                <!--Enter latitude chosen as the origin of rectangular coordinates for a map projection.
+
+Domain: -90.0 <= Latitude of Projection Origin <= 90.0-->
+                0.0
+              </latprjo>
+              <feast>
+                <!--Enter the value added to all "x" values in the rectangular coordinates for a map projection.  Expressed in the unit of measure identified in Planar Coordinate Units.
+
+Domain: free real
+-->
+                500000
+              </feast>
+              <fnorth>
+                <!--Enter the value added to all "y" values in the rectangular coordinates for a map projection.  Expressed in the unit of measure identified in Planar Coordinate Units.
+
+Domain: free real-->
+                0
+              </fnorth>
+            </transmer>
+          </utm>
+        </gridsys>
+        <planci>
+          <plance>
+            <!--Enter the means used to represent horizontal positions.
+
+Domain: "coordinate pair" "distance and bearing" "row and column"-->
+            row and column
+          </plance>
+          <coordrep>
+            <absres>
+              <!--Enter the (nominal) minimum distance between the column values (x) of two adjacent points, expressed in Planar Distance Units of measure.-->
+              0.3
+            </absres>
+            <ordres>
+              <!--Enter the (nominal) minimum distance between the row values (y) of two adjacent points, expressed in Planar Distance Units of measure.-->
+              0.3
+            </ordres>
+          </coordrep>
+          <plandu>
+            <!--Enter the units of measure used for distances.
+
+Domain: "meters" "international feet" "survey feet" free text-->
+            meters
+          </plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>
+          <!--Enter the identification given to the reference system used for defining the coordinates of points.
+
+Domain: "North American Datum of 1927" "North American Datum of 1983" free text-->
+          North American Datum of 1983
+        </horizdn>
+        <ellips>
+          <!--Enter identification given to established representations of the Earth's shape.
+
+Domain: "Clarke 1866" "Geodetic Reference System 80" free text-->
+          Geodetic Reference System 80
+        </ellips>
+        <semiaxis>
+          <!--Enter radius of the equatorial axis of the ellipsoid.
+
+Domain: Semi-major Axis > 0.0-->
+          6378137
+        </semiaxis>
+        <denflat>
+          <!--Enter the denominator of the ratio of the difference between the equatorial and polar radii of the ellipsoid when the numerator is set to 1.
+
+Domain: Denominator of Flattening > 0.0-->
+          298.2572221
+        </denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <metainfo>
+    <metd>
+      20030828
+    </metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>USGS</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing</addrtype>
+          <address>EROS Data Center</address>
+          <city>Sioux Falls</city>
+          <state>SD</state>
+          <postal>57198-0001</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>1-605-594-6151</cntvoice>
+        <cnttdd>1-605-594-6933</cnttdd>
+        <cntfax>1-605-594-6589</cntfax>
+        <cntemail>custserv@usgs.gov</cntemail>
+        <hours>Monday through Friday 8:00 AM to 4:00 PM (Central Time)</hours>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+  </metainfo>
+</metadata>
+
